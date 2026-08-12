@@ -190,22 +190,23 @@
           </div>
           <div class="project-body">
             <p>
-              Production-grade platform for running LLM evaluations at scale —
-              dataset ingest, quality gates, multi-provider inference, async
-              workers, and observability.
+              Platform for running LLM evals end to end. Upload a JSONL
+              benchmark, score with OpenAI / Anthropic / Ollama, and pull
+              metrics, costs, and a simple HTML report. Currently at v1.1.
             </p>
             <h4>What I built</h4>
             <ul>
-              <li>API-key authenticated FastAPI service with rate limiting</li>
-              <li>Redis/RQ workers for concurrent evaluation jobs</li>
-              <li>Scoring paths: exact, fuzzy, and LLM-as-judge</li>
-              <li>Data quality validation on upload; Alembic migrations</li>
-              <li>Prometheus metrics, structured logs, Docker Compose stack</li>
+              <li>FastAPI app with API key auth and basic rate limits</li>
+              <li>Background jobs on Redis + RQ</li>
+              <li>Exact, fuzzy, semantic, and LLM-judge scoring</li>
+              <li>Token usage + estimated USD cost on each run</li>
+              <li>Export results as JSON, CSV, or HTML</li>
+              <li>Upload validation, Alembic migrations, Prometheus metrics</li>
             </ul>
             <h4>Why it matters</h4>
             <p>
-              Turns ad-hoc notebook evals into a repeatable service teams can
-              run, monitor, and trust week after week.
+              Replaces one-off notebook evals with something you can rerun,
+              compare, and share with a team.
             </p>
             <a
               class="text-link"
