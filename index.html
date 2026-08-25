@@ -70,7 +70,7 @@
               rel="noopener noreferrer"
             >
               <strong>EvalForge</strong>
-              <span>LLM eval platform (v1.1)</span>
+              <span>LLM eval platform (v2.0)</span>
             </a>
             <a
               class="proof-item"
@@ -106,10 +106,11 @@
               benchmarks, graders, scoring pipelines, that kind of work.
             </p>
             <p>
-              On the side I built EvalForge (run LLM evals, track cost, export
-              reports), ledger-repair (agent env with an independent oracle), and
-              Basalt (docs in, search out, agent runs with traces). Earlier roles
-              were more data engineering: Python, SQL, Spark, Airflow, AWS.
+              On the side I built EvalForge (LLM evals with regression gates,
+              traces, and cost tracking), ledger-repair (agent env with an
+              independent oracle), and Basalt (docs in, search out, agent runs
+              with traces). Earlier roles were more data engineering: Python,
+              SQL, Spark, Airflow, AWS.
             </p>
             <p>
               Based in India. Open to remote contract or full-time.
@@ -196,21 +197,22 @@
             <p class="index">01</p>
             <h3>EvalForge</h3>
             <p class="stack">Python · FastAPI · Postgres · Redis · Docker</p>
-            <p class="tag">LLM eval · v1.1</p>
+            <p class="tag">LLM eval · v2.0</p>
           </div>
           <div class="project-body">
             <p>
-              Small platform to run LLM evals. You upload a JSONL set, it calls
-              a model provider, scores the answers, and gives you metrics plus
-              cost. Can export JSON, CSV, or HTML.
+              Platform to run LLM evals the way a team would: upload a JSONL
+              set, score against a provider, then gate the run so a regression
+              doesn’t quietly ship. Metrics, cost, traces, and HTML/JSON/CSV
+              export.
             </p>
             <h4>Includes</h4>
             <ul>
-              <li>API key auth, rate limits</li>
-              <li>Redis/RQ workers</li>
-              <li>Exact, fuzzy, semantic, LLM-judge scoring</li>
-              <li>Token + rough USD cost on each run</li>
-              <li>Alembic, Prometheus, upload validation</li>
+              <li>Regression gates vs baseline + CI gate-check</li>
+              <li>Trajectory / multi-turn agent eval and per-result traces</li>
+              <li>Exact, fuzzy, semantic, LLM-judge, custom verifiers</li>
+              <li>Robustness checks, run lineage, reproducibility snapshot</li>
+              <li>Redis/RQ workers, Alembic, Prometheus, upload validation</li>
             </ul>
             <div class="project-links">
               <a
@@ -222,10 +224,10 @@
               >
               <a
                 class="text-link"
-                href="https://github.com/AnurajSingh9/evalforge/releases/tag/v1.1.0"
+                href="https://github.com/AnurajSingh9/evalforge/releases/tag/v2.0.0"
                 target="_blank"
                 rel="noopener noreferrer"
-                >v1.1.0</a
+                >v2.0.0</a
               >
             </div>
           </div>
