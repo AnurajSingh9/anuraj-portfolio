@@ -74,6 +74,15 @@
             </a>
             <a
               class="proof-item"
+              href="https://github.com/AnurajSingh9/multi-cloud-data-platform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <strong>Multi-Cloud Data Platform</strong>
+              <span>GCP lakehouse · Airflow · dbt</span>
+            </a>
+            <a
+              class="proof-item"
               href="https://github.com/AnurajSingh9/ledger-repair"
               target="_blank"
               rel="noopener noreferrer"
@@ -107,10 +116,11 @@
             </p>
             <p>
               On the side I built EvalForge (LLM evals with regression gates,
-              traces, and cost tracking), ledger-repair (agent env with an
-              independent oracle), and Basalt (docs in, search out, agent runs
-              with traces). Earlier roles were more data engineering: Python,
-              SQL, Spark, Airflow, AWS.
+              traces, and cost tracking), Multi-Cloud Data Platform (GCP
+              lakehouse with Airflow, Spark, dbt, and quality gates),
+              ledger-repair (agent env with an independent oracle), and Basalt
+              (docs in, search out, agent runs with traces). Earlier roles were
+              more data engineering: Python, SQL, Spark, Airflow, AWS.
             </p>
             <p>
               Based in India. Open to remote contract or full-time.
@@ -122,7 +132,7 @@
               <span>Years experience</span>
             </div>
             <div class="stat">
-              <strong>3</strong>
+              <strong>4</strong>
               <span>Main public projects</span>
             </div>
             <div class="stat">
@@ -176,10 +186,10 @@
           <article class="skill-block">
             <h3>Data</h3>
             <ul>
-              <li>SQL, PySpark, Airflow</li>
-              <li>Kafka, ETL</li>
+              <li>SQL, PySpark, Airflow, dbt</li>
+              <li>Kafka, ETL, Great Expectations</li>
               <li>Pandas, Parquet</li>
-              <li>Data quality checks</li>
+              <li>GCS, BigQuery, Terraform</li>
               <li>AWS (S3, Lambda, EC2)</li>
             </ul>
           </article>
@@ -236,6 +246,40 @@
         <article class="project detailed">
           <div class="project-meta">
             <p class="index">02</p>
+            <h3>Multi-Cloud Data Platform</h3>
+            <p class="stack">Python · Spark · Airflow · BigQuery · Terraform</p>
+            <p class="tag">Data platform · GCP-first</p>
+          </div>
+          <div class="project-body">
+            <p>
+              GCP-first lakehouse for ops/service metrics: land events, clean to
+              silver with Spark, build BigQuery marts with dbt, and fail the run
+              if quality checks don’t pass. AWS mapping documented for the same
+              design on S3 / Glue / Redshift / MWAA.
+            </p>
+            <h4>Includes</h4>
+            <ul>
+              <li>Medallion raw → silver → gold with daily partitions</li>
+              <li>Airflow DAG: ingest → transform → dbt → quality gate</li>
+              <li>PySpark/pandas silver job, dbt incremental marts</li>
+              <li>Great Expectations-style checks, Terraform (GCS, BQ, Pub/Sub)</li>
+              <li>GitHub Actions CI; Kafka/Pub/Sub ingest path</li>
+            </ul>
+            <div class="project-links">
+              <a
+                class="text-link"
+                href="https://github.com/AnurajSingh9/multi-cloud-data-platform"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="project detailed">
+          <div class="project-meta">
+            <p class="index">03</p>
             <h3>ledger-repair</h3>
             <p class="stack">Python · RL env · oracle grading</p>
             <p class="tag">Agent eval env</p>
@@ -267,7 +311,7 @@
 
         <article class="project detailed">
           <div class="project-meta">
-            <p class="index">03</p>
+            <p class="index">04</p>
             <h3>Basalt</h3>
             <p class="stack">FastAPI · pgvector · Airflow/RQ · MinIO</p>
             <p class="tag">RAG + agent ops</p>
@@ -299,7 +343,7 @@
 
         <article class="project detailed secondary">
           <div class="project-meta">
-            <p class="index">04</p>
+            <p class="index">05</p>
             <h3>Retail transaction pipeline env</h3>
             <p class="stack">Python · tests</p>
             <p class="tag">Agent eval</p>
@@ -323,7 +367,7 @@
 
         <article class="project detailed secondary">
           <div class="project-meta">
-            <p class="index">05</p>
+            <p class="index">06</p>
             <h3>E-commerce Kafka pipeline</h3>
             <p class="stack">Python · Kafka</p>
             <p class="tag">Data</p>

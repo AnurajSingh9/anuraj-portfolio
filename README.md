@@ -24,6 +24,6 @@ If using `AnurajSingh9.github.io`, the site will be at:
 ## Contents
 
 - Hero with name + positioning
-- Selected work: EvalForge, ledger-repair, Basalt
+- Selected work: EvalForge, Multi-Cloud Data Platform, ledger-repair, Basalt
 - Experience summary
 - Contact links
