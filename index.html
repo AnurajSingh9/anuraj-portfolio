@@ -3,397 +3,256 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anuraj Singh — AI Evaluation & Data Platforms</title>
+    <title>Anuraj Singh — AI / ML Engineer & Data Engineer</title>
     <meta
       name="description"
-      content="Senior software engineer focused on AI evaluation, RL environments, and scalable data platforms."
+      content="Senior Software Engineer specializing in AI evaluation, RL/agent environments, data engineering and scalable AI systems."
     />
-    <meta property="og:title" content="Anuraj Singh" />
+    <meta property="og:title" content="Anuraj Singh — AI / ML Engineer & Data Engineer" />
     <meta
       property="og:description"
-      content="AI evaluation, RL environments, data platforms, Python."
+      content="Senior Software Engineer specializing in AI evaluation, RL/agent environments, data engineering and scalable AI systems."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://anurajsingh9.github.io/anuraj-portfolio/" />
-    <meta name="theme-color" content="#0b1120" />
+    <meta name="theme-color" content="#070B0D" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="topbar">
-      <a class="logo" href="#top"><span>Anuraj</span> Singh</a>
-      <nav>
-        <a href="#top" class="active">Home</a>
-        <a href="#work">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <span class="avail"><i></i> Available for opportunities</span>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top">anuraj@dev:~$</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <span></span><span></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <p class="status-pill" aria-label="Availability">
+          <span class="status-dot" aria-hidden="true"></span>
+          Available for opportunities
+        </p>
+      </div>
     </header>
 
-    <main id="top">
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="hi">Hi, I’m</p>
-          <h1><span>Anuraj</span> Singh</h1>
-          <p class="role">AI Evaluation · RL Environments · Data Engineer</p>
-          <p class="lede">
-            I build eval platforms, agent environments, and data pipelines in
-            Python — systems that check model quality and keep production data
-            reliable.
-          </p>
-          <ul class="meta-row">
-            <li><span class="dot"></span>India</li>
-            <li><span class="dot"></span>Open to remote</li>
-            <li>
-              <span class="dot"></span>
-              <a href="mailto:anurajsingh0909@gmail.com">anurajsingh0909@gmail.com</a>
-            </li>
-          </ul>
-          <div class="cta-row">
-            <a class="btn primary" href="#work">View my work →</a>
-            <a
-              class="btn ghost"
-              href="https://github.com/AnurajSingh9"
-              target="_blank"
-              rel="noopener noreferrer"
-              >GitHub</a
-            >
+    <main id="main">
+      <section id="top" class="hero section">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="mono-label">anuraj@dev:~$ whoami</p>
+            <h1>Anuraj Singh</h1>
+            <p class="hero-role">Senior Software Engineer</p>
+            <p class="hero-focus">AI / ML · Data Engineering · Backend</p>
+            <p class="hero-lede">
+              Building production-grade AI evaluation systems, RL/agent
+              environments, and scalable data platforms.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects">View Projects</a>
+              <a
+                class="btn ghost"
+                href="https://github.com/AnurajSingh9"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub ↗</a
+              >
+              <a class="btn ghost" href="./assets/Anuraj-Singh-Resume.pdf" download
+                >Download Resume</a
+              >
+            </div>
+            <ul class="hero-meta">
+              <li>India</li>
+              <li>Open to Remote</li>
+              <li>AI / ML · Data Engineering · Backend</li>
+            </ul>
           </div>
-        </div>
 
-        <aside class="terminal" aria-label="Profile terminal">
-          <div class="term-bar">
-            <span></span><span></span><span></span>
-            <p>anuraj@dev — zsh</p>
-          </div>
-          <pre class="term-body"><span class="prompt">anuraj@dev:~$</span> whoami
-<span class="key">name</span>         <span class="val">Anuraj Singh</span>
-<span class="key">role</span>         <span class="val">Senior Software Engineer</span>
-<span class="key">location</span>     <span class="val">India · Remote</span>
-<span class="key">focus</span>        <span class="val">AI eval · RL envs · data platforms</span>
-<span class="key">availability</span> <span class="val">Open to opportunities</span>
-<span class="prompt">anuraj@dev:~$</span> <span class="cursor">█</span></pre>
-        </aside>
+          <aside class="terminal-panel" aria-label="Profile console">
+            <div class="terminal-chrome">
+              <div class="traffic" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </div>
+              <p class="terminal-path">~/profile</p>
+            </div>
+            <pre class="terminal-body"><span class="prompt">anuraj@dev:~$</span> whoami
+
+<span class="k">Name</span>        : <span class="v">Anuraj Singh</span>
+<span class="k">Role</span>        : <span class="v">Senior Software Engineer</span>
+<span class="k">Focus</span>       : <span class="v">AI Evaluation</span>
+              <span class="v">RL Environments</span>
+              <span class="v">Data Engineering</span>
+<span class="k">Stack</span>       : <span class="v">Python · SQL · AWS</span>
+<span class="k">Status</span>      : <span class="v accent">Open to opportunities</span>
+
+<span class="prompt">anuraj@dev:~$</span> <span class="cursor" aria-hidden="true">█</span></pre>
+          </aside>
+        </div>
+      </section>
+
+      <section class="proof section" aria-label="Impact metrics">
+        <div class="proof-grid" id="proof-grid"></div>
       </section>
 
       <section id="skills" class="section">
-        <div class="section-row">
+        <div class="section-head">
+          <p class="mono-label">~/stack</p>
           <h2>Tech Stack</h2>
-          <a class="section-link" href="#about">More skills →</a>
+          <p class="section-sub">
+            Tools from production AI evaluation, data platforms, and backend work.
+          </p>
         </div>
-        <div class="stack-grid">
-          <div class="stack-item">
-            <img src="https://skillicons.dev/icons?i=python" alt="" />
-            <p>Python</p>
-          </div>
-          <div class="stack-item">
-            <img src="https://skillicons.dev/icons?i=postgres" alt="" />
-            <p>SQL</p>
-          </div>
-          <div class="stack-item">
-            <img src="https://skillicons.dev/icons?i=fastapi" alt="" />
-            <p>FastAPI</p>
-          </div>
-          <div class="stack-item">
-            <img src="https://skillicons.dev/icons?i=docker" alt="" />
-            <p>Docker</p>
-          </div>
-          <div class="stack-item">
-            <img src="https://skillicons.dev/icons?i=aws" alt="" />
-            <p>AWS</p>
-          </div>
-          <div class="stack-item">
-            <img src="https://skillicons.dev/icons?i=gcp" alt="" />
-            <p>GCP</p>
-          </div>
-          <div class="stack-item">
-            <img src="https://skillicons.dev/icons?i=redis" alt="" />
-            <p>Redis</p>
-          </div>
-          <div class="stack-item">
-            <img src="https://skillicons.dev/icons?i=linux" alt="" />
-            <p>Linux</p>
-          </div>
-          <div class="stack-item">
-            <img src="https://skillicons.dev/icons?i=githubactions" alt="" />
-            <p>CI</p>
-          </div>
-          <div class="stack-item">
-            <img src="https://skillicons.dev/icons?i=terraform" alt="" />
-            <p>Terraform</p>
-          </div>
-        </div>
+        <div class="skills-grid" id="skills-grid"></div>
       </section>
 
-      <section id="work" class="section">
-        <div class="section-row">
+      <section id="projects" class="section">
+        <div class="section-head">
+          <p class="mono-label">~/projects</p>
           <h2>Featured Projects</h2>
-          <a
-            class="section-link"
-            href="https://github.com/AnurajSingh9"
-            target="_blank"
-            rel="noopener noreferrer"
-            >All projects →</a
-          >
+          <p class="section-sub">
+            Systems I’ve built around AI evaluation, data engineering, and
+            production infrastructure.
+          </p>
         </div>
-        <div class="project-grid">
-          <a
-            class="project-card"
-            href="https://github.com/AnurajSingh9/evalforge"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div class="card-top">
-              <div class="icon icon-a">EF</div>
-              <span class="card-arrow">↗</span>
-            </div>
-            <h3>EvalForge</h3>
-            <p>
-              LLM eval platform with regression gates, trajectory eval, traces,
-              and multi-provider scoring.
-            </p>
-            <div class="tags">
-              <span>Python</span><span>FastAPI</span><span>Redis</span><span>Docker</span>
-            </div>
-          </a>
-
-          <a
-            class="project-card"
-            href="https://github.com/AnurajSingh9/multi-cloud-data-platform"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div class="card-top">
-              <div class="icon icon-b">MC</div>
-              <span class="card-arrow">↗</span>
-            </div>
-            <h3>Multi-Cloud Data Platform</h3>
-            <p>
-              GCP-first lakehouse: Airflow, Spark, dbt, quality gates — AWS
-              mapping documented for the same design.
-            </p>
-            <div class="tags">
-              <span>Spark</span><span>Airflow</span><span>BigQuery</span><span>Terraform</span>
-            </div>
-          </a>
-
-          <a
-            class="project-card"
-            href="https://github.com/AnurajSingh9/ledger-repair"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div class="card-top">
-              <div class="icon icon-c">LR</div>
-              <span class="card-arrow">↗</span>
-            </div>
-            <h3>ledger-repair</h3>
-            <p>
-              RL environment for coding agents — oracle grading and soundness
-              checks on ledger bug fixes.
-            </p>
-            <div class="tags">
-              <span>Python</span><span>RL env</span><span>Oracle</span>
-            </div>
-          </a>
-
-          <a
-            class="project-card"
-            href="https://github.com/AnurajSingh9/basalt"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div class="card-top">
-              <div class="icon icon-d">BA</div>
-              <span class="card-arrow">↗</span>
-            </div>
-            <h3>Basalt</h3>
-            <p>
-              RAG + agent ops: ingest docs, pgvector search, tool-using agent
-              with run traces.
-            </p>
-            <div class="tags">
-              <span>FastAPI</span><span>pgvector</span><span>RAG</span>
-            </div>
-          </a>
-        </div>
+        <div class="project-grid" id="project-grid"></div>
       </section>
 
       <section id="experience" class="section">
-        <div class="section-row">
+        <div class="section-head">
+          <p class="mono-label">~/experience</p>
           <h2>Experience</h2>
         </div>
-        <div class="exp-list">
-          <article class="exp-card">
-            <div class="exp-meta">
-              <h3>Tensium</h3>
-              <span>Aug 2026 – Present</span>
-            </div>
-            <div class="exp-body">
-              <p class="exp-role">Senior Software Engineer — RL Environments (Contract)</p>
-              <ul>
-                <li>RL/agent eval environments: task specs, data, graders / rewards.</li>
-                <li>Soundness checks so grading matches real task completion.</li>
-              </ul>
-            </div>
-          </article>
-          <article class="exp-card">
-            <div class="exp-meta">
-              <h3>Handshake AI</h3>
-              <span>Jul 2026 – Present</span>
-            </div>
-            <div class="exp-body">
-              <p class="exp-role">Senior Software Engineer — AI Evaluation & Benchmarks (Contract)</p>
-              <ul>
-                <li>Python pipelines for benchmarks and LLM output checks.</li>
-                <li>Datasets, reporting, Docker/Git production workflows.</li>
-              </ul>
-            </div>
-          </article>
-          <article class="exp-card">
-            <div class="exp-meta">
-              <h3>Mercor</h3>
-              <span>Aug 2025 – Jul 2026</span>
-            </div>
-            <div class="exp-body">
-              <p class="exp-role">AI Data Engineer (Contract)</p>
-              <ul>
-                <li>Python/SQL/AWS pipelines for LLM training and eval datasets.</li>
-                <li>QA practices targeting high accuracy for GenAI workloads.</li>
-              </ul>
-            </div>
-          </article>
-          <article class="exp-card">
-            <div class="exp-meta">
-              <h3>Team Computers</h3>
-              <span>Aug 2024 – Jul 2025</span>
-            </div>
-            <div class="exp-body">
-              <p class="exp-role">Data Engineer (Full-Time)</p>
-              <ul>
-                <li>ETL with Python, SQL, PySpark, Airflow — less manual processing.</li>
-                <li>Postgres/MySQL models and data-quality checks for reporting.</li>
-              </ul>
-            </div>
-          </article>
-          <article class="exp-card">
-            <div class="exp-meta">
-              <h3>Wipro</h3>
-              <span>Sep 2021 – Aug 2024</span>
-            </div>
-            <div class="exp-body">
-              <p class="exp-role">Project Engineer (Full-Time)</p>
-              <ul>
-                <li>Python/SQL/AWS data workflows; CSAT around 4.8.</li>
-                <li>Reporting automation that cut spreadsheet busywork.</li>
-              </ul>
-            </div>
-          </article>
-        </div>
+        <div class="experience-list" id="experience-list"></div>
       </section>
 
-      <section id="stats" class="section">
-        <div class="section-row">
-          <h2>GitHub Snapshot</h2>
+      <section id="build" class="section">
+        <div class="section-head">
+          <p class="mono-label">~/architecture</p>
+          <h2>How I Build</h2>
+          <p class="section-sub">
+            A practical path from data to evaluation and serving.
+          </p>
+        </div>
+        <ol class="flow" id="arch-flow"></ol>
+      </section>
+
+      <section id="specialization" class="section">
+        <div class="section-head">
+          <p class="mono-label">~/specialization</p>
+          <h2>AI Evaluation & Reliability</h2>
+        </div>
+        <div class="spec-grid" id="spec-grid"></div>
+      </section>
+
+      <section id="opensource" class="section opensource">
+        <div class="os-card">
+          <p class="mono-label">~/github</p>
+          <h2>Open Source / Code</h2>
+          <p>
+            Building tools around AI evaluation, data engineering, and backend
+            systems.
+          </p>
           <a
-            class="section-link"
+            class="btn primary"
             href="https://github.com/AnurajSingh9"
             target="_blank"
             rel="noopener noreferrer"
-            >Profile →</a
+            >View GitHub ↗</a
           >
-        </div>
-        <div class="stats-grid">
-          <article class="stat-card">
-            <p class="stat-label">Public repos</p>
-            <p class="stat-value">16</p>
-            <p class="stat-sub">Eval, RL envs, data platforms</p>
-          </article>
-          <article class="stat-card">
-            <p class="stat-label">Top languages</p>
-            <div class="lang">
-              <div class="lang-row"><span>Python</span><span>78%</span></div>
-              <div class="bar"><i style="width: 78%"></i></div>
-              <div class="lang-row"><span>Shell</span><span>12%</span></div>
-              <div class="bar"><i style="width: 12%"></i></div>
-              <div class="lang-row"><span>HTML / other</span><span>10%</span></div>
-              <div class="bar"><i style="width: 10%"></i></div>
-            </div>
-          </article>
-          <article class="stat-card">
-            <p class="stat-label">Focus</p>
-            <ul class="focus-list">
-              <li>LLM evaluation platforms</li>
-              <li>RL / agent environments</li>
-              <li>Lakehouse data pipelines</li>
-            </ul>
-          </article>
         </div>
       </section>
 
-      <section id="about" class="section about">
-        <div class="section-row">
+      <section id="about" class="section">
+        <div class="section-head">
+          <p class="mono-label">~/about</p>
           <h2>About</h2>
         </div>
         <div class="about-grid">
-          <div>
+          <div class="about-copy">
             <p>
-              Software engineer with 5+ years. Lately focused on AI evaluation
-              and RL/agent environments — benchmarks, graders, scoring
-              pipelines — plus data platforms when the work needs Spark,
-              Airflow, and warehouse marts.
+              I build reliable systems at the intersection of AI evaluation,
+              data engineering, and backend infrastructure.
             </p>
             <p>
-              Built EvalForge, Multi-Cloud Data Platform, ledger-repair, and
-              Basalt. Earlier: Python, SQL, Spark, Airflow, AWS.
+              My work focuses on taking complex AI/data problems from
+              specification and experimentation to reproducible,
+              production-ready systems.
             </p>
-            <p class="muted">Based in India. Open to remote contract or full-time.</p>
           </div>
-          <ul class="about-skills">
-            <li>Python · FastAPI · Docker</li>
-            <li>LLM eval · RL envs · oracles</li>
-            <li>Spark · Airflow · dbt · Kafka</li>
-            <li>Postgres · Redis · BigQuery</li>
-            <li>AWS · GCP · Terraform · CI</li>
-          </ul>
+          <div class="about-side">
+            <div>
+              <h3>Education</h3>
+              <ul class="edu-list" id="edu-list"></ul>
+            </div>
+            <div>
+              <h3>Certification</h3>
+              <p class="cert" id="cert-block"></p>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section id="contact" class="section">
+      <section id="contact" class="section contact">
         <div class="contact-panel">
-          <h2>Let’s talk</h2>
-          <p>Hiring for AI eval, RL envs, or data/backend work? Email is fine.</p>
-          <div class="cta-row">
-            <a class="btn primary" href="mailto:anurajsingh0909@gmail.com">Email me</a>
+          <p class="mono-label">anuraj@dev:~$ contact</p>
+          <h2>Have an interesting AI, ML, or data engineering problem?</h2>
+          <p class="contact-lede">Let’s build it.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="mailto:anurajsingh0909@gmail.com">Email Me</a>
             <a
               class="btn ghost"
               href="https://www.linkedin.com/in/anuraj-singh/"
               target="_blank"
               rel="noopener noreferrer"
-              >LinkedIn</a
+              >LinkedIn ↗</a
+            >
+            <a
+              class="btn ghost"
+              href="https://github.com/AnurajSingh9"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub ↗</a
             >
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <p>© <span id="year"></span> Anuraj Singh</p>
-      <div class="social">
-        <a href="https://github.com/AnurajSingh9" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://www.linkedin.com/in/anuraj-singh/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="mailto:anurajsingh0909@gmail.com">Email</a>
-        <a class="top" href="#top" aria-label="Back to top">↑</a>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p class="mono-label">anuraj@dev:~$ exit</p>
+        <div class="footer-row">
+          <div>
+            <p class="footer-name">© <span id="year"></span> Anuraj Singh</p>
+            <p class="footer-focus">AI / ML · Data Engineering · Backend</p>
+          </div>
+          <div class="footer-links">
+            <a href="https://github.com/AnurajSingh9" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/anuraj-singh/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="mailto:anurajsingh0909@gmail.com">Email</a>
+          </div>
+        </div>
       </div>
     </footer>
 
+    <script src="data.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
