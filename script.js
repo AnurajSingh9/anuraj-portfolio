@@ -1,16 +1,27 @@
 document.getElementById("year").textContent = String(new Date().getFullYear());
 
-const topbar = document.querySelector(".topbar");
-if (topbar) {
-  const onScroll = () => {
-    topbar.classList.toggle("is-scrolled", window.scrollY > 12);
-  };
-  onScroll();
-  window.addEventListener("scroll", onScroll, { passive: true });
-}
+const navLinks = document.querySelectorAll("nav a");
+const sections = ["top", "work", "about", "contact"]
+  .map((id) => document.getElementById(id))
+  .filter(Boolean);
+
+const setActive = () => {
+  const y = window.scrollY + 120;
+  let current = "top";
+  for (const section of sections) {
+    if (section.offsetTop <= y) current = section.id;
+  }
+  for (const link of navLinks) {
+    const href = link.getAttribute("href") || "";
+    link.classList.toggle("active", href === `#${current}`);
+  }
+};
+
+window.addEventListener("scroll", setActive, { passive: true });
+setActive();
 
 const revealItems = document.querySelectorAll(
-  ".about-grid, .skill-block, .project, .detailed-timeline > li, .edu-grid article, .contact-panel"
+  ".stack-item, .project-card, .stats-wrap, .about-grid, .contact-panel"
 );
 
 if ("IntersectionObserver" in window) {
