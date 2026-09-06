@@ -1,7 +1,7 @@
 document.getElementById("year").textContent = String(new Date().getFullYear());
 
 const navLinks = document.querySelectorAll("nav a");
-const sections = ["top", "work", "about", "contact"]
+const sections = ["top", "work", "experience", "about", "contact"]
   .map((id) => document.getElementById(id))
   .filter(Boolean);
 
@@ -21,7 +21,7 @@ window.addEventListener("scroll", setActive, { passive: true });
 setActive();
 
 const revealItems = document.querySelectorAll(
-  ".stack-item, .project-card, .stats-wrap, .about-grid, .contact-panel"
+  ".stack-item, .project-card, .stats-wrap, .timeline > li, .about-grid, .contact-panel"
 );
 
 if ("IntersectionObserver" in window) {

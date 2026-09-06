@@ -474,6 +474,53 @@ nav a.active::after {
   padding: 0.5rem;
 }
 
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline > li {
+  padding: 1.35rem 0;
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 0.7rem;
+}
+
+.timeline > li:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.exp-head h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  letter-spacing: -0.02em;
+}
+
+.exp-role {
+  margin: 0.3rem 0 0;
+  color: var(--ink);
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.exp-head span {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.78rem;
+}
+
+.timeline > li > ul {
+  margin: 0;
+  padding-left: 1.15rem;
+  color: var(--muted);
+  display: grid;
+  gap: 0.4rem;
+  max-width: 52rem;
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: 1.4fr 0.8fr;
