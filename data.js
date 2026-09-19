@@ -14,7 +14,7 @@ window.SITE = {
     linkedin: "https://www.linkedin.com/in/anuraj-singh/",
     resume: "./assets/Anuraj-Singh-Resume.pdf",
     summary:
-      "Building large-scale Spark ETL and data platforms for AdTech analytics.",
+      "Large-scale Spark ETL, cloud data platforms, and AI-ready / analytics datasets for product, advertising, and ML use cases.",
   },
 
   proof: [
@@ -88,8 +88,9 @@ window.SITE = {
     {
       title: "Also worked in",
       items: [
+        "AI-ready datasets",
+        "LLM data pipelines",
         "AI / LLM Evaluation",
-        "RL Environments",
         "LangChain",
         "RAG",
       ],
@@ -144,73 +145,57 @@ window.SITE = {
 
   experience: [
     {
-      title: "Senior Data Engineer",
+      title: "Senior Data Engineer (Full-Time)",
       company: "JioHotstar",
-      location: "Mumbai · Remote",
+      location: "Remote",
       dates: "Sep 2026 – Present",
       bullets: [
-        "Build and maintain large-scale ETL pipelines for AdTech advertising insights and analytics.",
-        "Develop and optimize distributed data applications with Apache Spark (Scala/PySpark) and SQL.",
-        "Own data quality, performance, and cost efficiency across batch and streaming workloads.",
-        "Partner with engineering, product, and analytics; support cloud and containerized deployments.",
+        "Build and maintain large-scale ETL pipelines for AdTech advertising insights and analytics; develop and optimize distributed Spark applications (Scala / PySpark) and SQL for batch and streaming workloads.",
+        "Drive data quality, performance, and cost efficiency across production pipelines; partner with engineering, product, and analytics on cloud and containerized data platform deliveries.",
       ],
       more: [],
     },
     {
-      title: "AI Data Engineer",
-      company: "Mercor",
-      location: "Remote",
-      dates: "Aug 2025 – Jul 2026",
-      bullets: [
-        "Architected Python, SQL, and AWS pipelines transforming 100K–500K+ records into analytics-ready datasets.",
-        "Delivered 99.5%+ data accuracy through quality assurance on large workloads.",
-        "Supported training, evaluation, and analytics use cases with production-minded ETL.",
-      ],
-      more: [],
-    },
-    {
-      title: "Data Engineer",
-      company: "Team Computers",
-      location: "Remote",
-      dates: "Aug 2024 – Jul 2025",
-      bullets: [
-        "Built ETL/ELT with Python, SQL, PySpark, and Airflow for high-volume enterprise data.",
-        "Reduced manual data processing by ~50% through automation.",
-        "Designed PostgreSQL/MySQL models; maintained ~99.9% production pipeline reliability.",
-      ],
-      more: [],
-    },
-    {
-      title: "Project Engineer",
-      company: "Wipro",
-      location: "Remote (Pune)",
-      dates: "Sep 2021 – Aug 2024",
-      bullets: [
-        "Optimized enterprise data pipelines and workflows using Python, SQL, and AWS.",
-        "Resolved 100+ data-related issues daily; contributed to 4.8/5 CSAT.",
-        "Cut manual reporting effort by ~25% through automation.",
-      ],
-      more: [],
-    },
-    {
-      title: "RL Environments Engineer (Contract)",
-      company: "Tensium",
-      location: "Remote",
-      dates: "Aug 2026 – Sep 2026",
-      bullets: [
-        "Built evaluation environments and verifier tooling in Python.",
-        "Secondary to core data engineering career path.",
-      ],
-      more: [],
-    },
-    {
-      title: "AI Evaluation & Benchmarks (Contract)",
+      title: "Senior Software Engineer - AI Evaluation & Benchmarks (Contract)",
       company: "Handshake AI",
       location: "Remote",
       dates: "Jul 2026 – Sep 2026",
       bullets: [
-        "Built Python evaluation and reporting pipelines with Docker/Git workflows.",
-        "Secondary contract work alongside data engineering focus.",
+        "Developed Python-based AI evaluation pipelines for automated benchmark execution, LLM quality assessment, and deterministic validation using reproducible evaluation workflows.",
+        "Built benchmark datasets, automated evaluation and reporting pipelines, and improved engineering workflows using Docker, Git, Linux, and production software engineering practices.",
+      ],
+      more: [],
+    },
+    {
+      title: "AI Data Engineer (Contract)",
+      company: "Mercor",
+      location: "Remote",
+      dates: "Aug 2025 – Jul 2026",
+      bullets: [
+        "Architected scalable Python, SQL, and AWS-based data pipelines to transform and standardize 100K–500K+ records into AI-ready datasets for LLM training, model evaluation, and analytics workloads.",
+        "Delivered AI-ready data platforms supporting machine learning and Generative AI workloads, achieving 99.5%+ data accuracy through robust quality assurance and scalable data engineering practices.",
+      ],
+      more: [],
+    },
+    {
+      title: "Data Engineer (Full-Time)",
+      company: "Team Computers",
+      location: "Remote",
+      dates: "Aug 2024 – Jul 2025",
+      bullets: [
+        "Built and maintained scalable ETL/ELT pipelines using Python, SQL, Apache Spark (PySpark), and Apache Airflow to process high-volume enterprise data, improving pipeline performance and reducing manual data processing by 50%.",
+        "Designed and optimized PostgreSQL/MySQL data models while collaborating with cross-functional teams to automate data workflows, implement data quality validation, and maintain production pipelines with 99.9% reliability for business-critical reporting.",
+      ],
+      more: [],
+    },
+    {
+      title: "Project Engineer (Full-Time)",
+      company: "Wipro",
+      location: "Remote (Pune)",
+      dates: "Sep 2021 – Aug 2024",
+      bullets: [
+        "Optimized enterprise data pipelines and workflows using Python, SQL, and AWS, integrating HPSM and OSM systems to resolve 100+ data-related issues daily while improving data reliability and contributing to a CSAT score of 4.8/5.0.",
+        "Modernized Python- and SQL-based data transformation, reporting, and automation solutions using AWS, Tableau, and Excel, reducing manual reporting effort by 25% and improving business visibility through analytics-driven insights.",
       ],
       more: [],
     },
