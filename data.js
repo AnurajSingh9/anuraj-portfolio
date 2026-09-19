@@ -111,8 +111,8 @@ window.SITE = {
         "GE gate",
       ],
       github: "https://github.com/AnurajSingh9/adstream-lakehouse",
-      secondaryLabel: null,
-      secondaryUrl: null,
+      secondaryLabel: "Live Demo",
+      secondaryUrl: "https://anurajsingh9.github.io/adstream-lakehouse/demo/",
     },
     {
       name: "Multi-Cloud Data Platform",
