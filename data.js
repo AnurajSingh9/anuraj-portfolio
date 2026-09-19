@@ -156,6 +156,17 @@ window.SITE = {
       more: [],
     },
     {
+      title: "RL Environments Engineer (Contract)",
+      company: "Tensium",
+      location: "Remote",
+      dates: "Aug 2026 – Sep 2026",
+      bullets: [
+        "Design and implement RL/agent evaluation environments for frontier coding models, including task specs, synthetic datasets, and reward/verifier logic.",
+        "Ran adversarial soundness testing and quality checks so grades track real task completion.",
+      ],
+      more: [],
+    },
+    {
       title: "Senior Software Engineer - AI Evaluation & Benchmarks (Contract)",
       company: "Handshake AI",
       location: "Remote",
