@@ -1,4 +1,4 @@
-/** Site configuration and resume-backed content. */
+/** Site configuration — Senior Data Engineer positioning. */
 window.SITE = {
   profile: {
     name: "Anuraj Singh",
@@ -6,20 +6,21 @@ window.SITE = {
     email: "anurajsingh0909@gmail.com",
     phone: "+91 9838242460",
     location: "India",
-    availability: "Open to Remote",
-    role: "Senior Software Engineer",
-    focusLine: "AI / ML · Data Engineering · Backend",
+    availability: "Remote-friendly",
+    role: "Senior Data Engineer",
+    company: "JioHotstar",
+    focusLine: "Spark · ETL · SQL · AdTech Data Platforms",
     github: "https://github.com/AnurajSingh9",
     linkedin: "https://www.linkedin.com/in/anuraj-singh/",
     resume: "./assets/Anuraj-Singh-Resume.pdf",
     summary:
-      "Building production-grade AI evaluation systems, RL/agent environments, and scalable data platforms.",
+      "Building large-scale Spark ETL and data platforms for AdTech analytics.",
   },
 
   proof: [
-    { value: "5+", label: "Years professional experience" },
-    { value: "100K–500K+", label: "Records processed for AI-ready datasets" },
-    { value: "99.5%+", label: "Data accuracy on AI-ready pipelines" },
+    { value: "5+", label: "Years in data engineering & platforms" },
+    { value: "100K–500K+", label: "Records processed in production pipelines" },
+    { value: "99.5%+", label: "Data accuracy on AI-ready datasets" },
     { value: "99.9%", label: "Production pipeline reliability" },
     { value: "50%", label: "Reduction in manual data processing" },
     { value: "100+", label: "Data issues resolved daily (Wipro)" },
@@ -27,29 +28,13 @@ window.SITE = {
 
   skills: [
     {
-      title: "AI / ML",
-      items: [
-        "AI Model Evaluation",
-        "RL / Agent Environments",
-        "LLM Evaluation",
-        "LangChain",
-        "OpenAI API",
-        "RAG",
-        "Prompt Evaluation",
-        "Verifiers & Reward Design",
-        "Adversarial Soundness Testing",
-      ],
-    },
-    {
-      title: "Programming",
-      items: ["Python", "SQL"],
-    },
-    {
       title: "Data Engineering",
       items: [
         "Apache Spark",
+        "Scala",
         "PySpark",
         "Spark SQL",
+        "ETL / ELT",
         "Apache Airflow",
         "Kafka",
         "AWS Glue",
@@ -58,15 +43,19 @@ window.SITE = {
       ],
     },
     {
+      title: "Programming",
+      items: ["Python", "SQL", "Scala"],
+    },
+    {
       title: "Data / Storage",
       items: [
-        "Pandas",
-        "NumPy",
         "PostgreSQL",
         "MySQL",
         "MongoDB",
         "Snowflake",
         "Redis",
+        "Pandas",
+        "NumPy",
         "Parquet",
         "Avro",
         "Great Expectations",
@@ -74,36 +63,66 @@ window.SITE = {
     },
     {
       title: "Cloud",
-      items: ["AWS", "S3", "Lambda", "Redshift", "IAM", "EC2"],
+      items: [
+        "AWS",
+        "S3",
+        "Lambda",
+        "Redshift",
+        "IAM",
+        "EC2",
+        "GCS",
+        "Kubernetes",
+      ],
     },
     {
       title: "Backend / DevOps",
       items: [
         "FastAPI",
-        "REST APIs",
         "Docker",
-        "Git",
-        "GitHub",
         "GitHub Actions",
-        "Linux",
         "Jenkins",
+        "Linux",
         "Prometheus",
+      ],
+    },
+    {
+      title: "Also worked in",
+      items: [
+        "AI / LLM Evaluation",
+        "RL Environments",
+        "LangChain",
+        "RAG",
       ],
     },
   ],
 
   projects: [
     {
+      name: "Multi-Cloud Data Platform",
+      label: "GCP-first lakehouse · data engineering",
+      tech: ["Spark", "Airflow", "dbt", "BigQuery", "Terraform", "GCS"],
+      description:
+        "Lakehouse-style ops metrics platform: medallion layers, Airflow orchestration, Spark/pandas transforms, dbt marts, quality gates, and AWS mapping for the same design.",
+      highlights: [
+        "Medallion Architecture",
+        "Incremental Loads",
+        "Quality Gates",
+        "IaC",
+      ],
+      github: "https://github.com/AnurajSingh9/multi-cloud-data-platform",
+      secondaryLabel: null,
+      secondaryUrl: null,
+    },
+    {
       name: "EvalForge",
-      label: "Production LLM Evaluation Platform",
+      label: "Production data / eval platform",
       tech: ["Python", "FastAPI", "PostgreSQL", "Redis", "Docker", "AWS S3"],
       description:
-        "Production LLM evaluation platform focused on regression gates, CI gate-checks, multi-turn trajectory evaluation, result traces, multi-provider inference, async workers, data quality validation, and Prometheus monitoring.",
+        "Production platform for large eval runs — async workers, data validation, metrics/export, and CI-style regression gates. Shows backend + data systems engineering.",
       highlights: [
-        "Regression Gates",
-        "CI Evaluation",
-        "Trajectory Evaluation",
         "Async Workers",
+        "Data Validation",
+        "Regression Gates",
         "Observability",
       ],
       github: "https://github.com/AnurajSingh9/evalforge",
@@ -112,11 +131,11 @@ window.SITE = {
     },
     {
       name: "ledger-repair",
-      label: "AI Agent Evaluation Environment",
+      label: "Agent evaluation environment",
       tech: ["Python", "SQL"],
       description:
-        "RL evaluation environment for AI agent debugging with oracle grading and soundness verification.",
-      highlights: ["RL Evaluation", "Oracle Grading", "Soundness Verification"],
+        "RL-style evaluation environment with oracle grading and soundness checks — secondary to core data engineering work.",
+      highlights: ["Oracle Grading", "Soundness Checks"],
       github: "https://github.com/AnurajSingh9/ledger-repair",
       secondaryLabel: null,
       secondaryUrl: null,
@@ -125,26 +144,15 @@ window.SITE = {
 
   experience: [
     {
-      title: "Senior Software Engineer — RL Environments",
-      company: "Tensium",
-      location: "Remote",
-      dates: "Aug 2026 – Present",
+      title: "Senior Data Engineer",
+      company: "JioHotstar",
+      location: "Mumbai · Remote",
+      dates: "Sep 2026 – Present",
       bullets: [
-        "Design and implement RL/agent evaluation environments for frontier coding models.",
-        "Build task specs, synthetic datasets, and reward/verifier logic.",
-        "Run adversarial soundness testing so grading tracks real task completion.",
-      ],
-      more: [],
-    },
-    {
-      title: "Senior Software Engineer — AI Evaluation & Benchmarks",
-      company: "Handshake AI",
-      location: "Remote",
-      dates: "Jul 2026 – Present",
-      bullets: [
-        "Build Python evaluation pipelines for automated benchmark execution and LLM quality assessment.",
-        "Create benchmark datasets and reporting pipelines with Docker, Git, and Linux workflows.",
-        "Use deterministic validation for reproducible evaluation runs.",
+        "Build and maintain large-scale ETL pipelines for AdTech advertising insights and analytics.",
+        "Develop and optimize distributed data applications with Apache Spark (Scala/PySpark) and SQL.",
+        "Own data quality, performance, and cost efficiency across batch and streaming workloads.",
+        "Partner with engineering, product, and analytics; support cloud and containerized deployments.",
       ],
       more: [],
     },
@@ -154,9 +162,9 @@ window.SITE = {
       location: "Remote",
       dates: "Aug 2025 – Jul 2026",
       bullets: [
-        "Architect Python, SQL, and AWS pipelines transforming 100K–500K+ records into AI-ready datasets.",
-        "Support LLM training, evaluation, and analytics workloads with strong QA practices.",
-        "Delivered 99.5%+ data accuracy on AI-ready data platforms.",
+        "Architected Python, SQL, and AWS pipelines transforming 100K–500K+ records into analytics-ready datasets.",
+        "Delivered 99.5%+ data accuracy through quality assurance on large workloads.",
+        "Supported training, evaluation, and analytics use cases with production-minded ETL.",
       ],
       more: [],
     },
@@ -166,9 +174,9 @@ window.SITE = {
       location: "Remote",
       dates: "Aug 2024 – Jul 2025",
       bullets: [
-        "Build ETL/ELT pipelines with Python, SQL, PySpark, and Airflow for high-volume enterprise data.",
-        "Cut manual data processing by 50% through automation.",
-        "Design PostgreSQL/MySQL models and maintain 99.9% production pipeline reliability.",
+        "Built ETL/ELT with Python, SQL, PySpark, and Airflow for high-volume enterprise data.",
+        "Reduced manual data processing by ~50% through automation.",
+        "Designed PostgreSQL/MySQL models; maintained ~99.9% production pipeline reliability.",
       ],
       more: [],
     },
@@ -178,40 +186,62 @@ window.SITE = {
       location: "Remote (Pune)",
       dates: "Sep 2021 – Aug 2024",
       bullets: [
-        "Optimize enterprise data pipelines and workflows using Python, SQL, and AWS.",
-        "Resolve 100+ data-related issues daily while contributing to 4.8/5 CSAT.",
-        "Reduce manual reporting effort by 25% through automation and analytics.",
+        "Optimized enterprise data pipelines and workflows using Python, SQL, and AWS.",
+        "Resolved 100+ data-related issues daily; contributed to 4.8/5 CSAT.",
+        "Cut manual reporting effort by ~25% through automation.",
+      ],
+      more: [],
+    },
+    {
+      title: "RL Environments Engineer (Contract)",
+      company: "Tensium",
+      location: "Remote",
+      dates: "Aug 2026 – Sep 2026",
+      bullets: [
+        "Built evaluation environments and verifier tooling in Python.",
+        "Secondary to core data engineering career path.",
+      ],
+      more: [],
+    },
+    {
+      title: "AI Evaluation & Benchmarks (Contract)",
+      company: "Handshake AI",
+      location: "Remote",
+      dates: "Jul 2026 – Sep 2026",
+      bullets: [
+        "Built Python evaluation and reporting pipelines with Docker/Git workflows.",
+        "Secondary contract work alongside data engineering focus.",
       ],
       more: [],
     },
   ],
 
   architecture: [
-    { stage: "Ingestion", detail: "APIs · Kafka · AWS Glue" },
-    { stage: "Validation", detail: "Great Expectations · QA checks" },
-    { stage: "Processing", detail: "Python · Spark · PySpark" },
-    { stage: "Storage", detail: "PostgreSQL · S3 · Snowflake · Redis" },
-    { stage: "Evaluation / ML", detail: "LLM Evaluation · RAG · RL Environments" },
-    { stage: "Serving", detail: "FastAPI · REST" },
-    { stage: "Observability", detail: "Prometheus · logging · metrics" },
+    { stage: "Ingestion", detail: "APIs · Kafka · AWS Glue · GCS" },
+    { stage: "Validation", detail: "Great Expectations · quality checks" },
+    { stage: "Processing", detail: "Spark · Scala · PySpark · SQL" },
+    { stage: "Storage", detail: "S3 · GCS · PostgreSQL · Snowflake" },
+    { stage: "Orchestration", detail: "Airflow · batch & streaming" },
+    { stage: "Serving", detail: "Analytics marts · APIs" },
+    { stage: "Ops", detail: "K8s · Docker · cost & performance" },
   ],
 
   specialization: [
     {
-      title: "Benchmark Engineering",
-      text: "Reproducible evaluation workflows for LLM and agent systems.",
+      title: "Large-scale ETL",
+      text: "Batch and streaming pipelines built for volume, reliability, and cost.",
     },
     {
-      title: "Verifier Design",
-      text: "Deterministic grading and reward logic you can trust.",
+      title: "Distributed processing",
+      text: "Spark / Scala / PySpark jobs tuned for performance and correctness.",
     },
     {
-      title: "Soundness Testing",
-      text: "Adversarial checks so evaluation tracks real completion.",
+      title: "Data quality",
+      text: "Validation, consistency checks, and metrics teams can trust.",
     },
     {
-      title: "LLM Pipelines",
-      text: "Evaluation, RAG, and GenAI workflows for production use.",
+      title: "Cloud data platforms",
+      text: "AWS and GCS-backed platforms with containerized workloads.",
     },
   ],
 
