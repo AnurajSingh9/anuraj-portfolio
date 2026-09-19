@@ -99,6 +99,22 @@ window.SITE = {
 
   projects: [
     {
+      name: "AdStream",
+      label: "OTT AdTech insights lakehouse",
+      tech: ["Spark", "Scala", "Airflow", "Kafka", "dbt", "Delta/Parquet", "FastAPI"],
+      description:
+        "SSAI ad beacons → bronze/silver/gold. Campaign fill-rate, eCPM, completion, and pod-fill marts with DQ gates — built for OTT advertising analytics.",
+      highlights: [
+        "Medallion + idempotent re-runs",
+        "Money in micros",
+        "Pod-level fill",
+        "GE gate",
+      ],
+      github: "https://github.com/AnurajSingh9/adstream-lakehouse",
+      secondaryLabel: null,
+      secondaryUrl: null,
+    },
+    {
       name: "Multi-Cloud Data Platform",
       label: "GCP-first lakehouse · data engineering",
       tech: ["Spark", "Airflow", "dbt", "BigQuery", "Terraform", "GCS"],
@@ -129,17 +145,6 @@ window.SITE = {
       github: "https://github.com/AnurajSingh9/evalforge",
       secondaryLabel: "Release",
       secondaryUrl: "https://github.com/AnurajSingh9/evalforge/releases/tag/v2.0.0",
-    },
-    {
-      name: "ledger-repair",
-      label: "Agent evaluation environment",
-      tech: ["Python", "SQL"],
-      description:
-        "RL-style evaluation environment with oracle grading and soundness checks — secondary to core data engineering work.",
-      highlights: ["Oracle Grading", "Soundness Checks"],
-      github: "https://github.com/AnurajSingh9/ledger-repair",
-      secondaryLabel: null,
-      secondaryUrl: null,
     },
   ],
 
