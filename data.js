@@ -8,7 +8,7 @@ window.SITE = {
     location: "India",
     availability: "Remote-friendly",
     role: "Senior Data Engineer",
-    company: "JioHotstar",
+    company: "Proximity Works",
     focusLine: "Spark · ETL · SQL · AdTech Data Platforms",
     github: "https://github.com/AnurajSingh9",
     linkedin: "https://www.linkedin.com/in/anuraj-singh/",
@@ -151,7 +151,7 @@ window.SITE = {
   experience: [
     {
       title: "Senior Data Engineer (Full-Time)",
-      company: "JioHotstar",
+      company: "Proximity Works",
       location: "Remote",
       dates: "Sep 2026 – Present",
       bullets: [
