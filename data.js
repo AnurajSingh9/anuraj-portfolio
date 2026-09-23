@@ -12,7 +12,7 @@ window.SITE = {
     focusLine: "Spark · ETL · SQL · AdTech Data Platforms",
     github: "https://github.com/AnurajSingh9",
     linkedin: "https://www.linkedin.com/in/anuraj-singh/",
-    resume: "./assets/Anuraj-Singh-Resume.pdf",
+    resume: "./assets/Anuraj-Singh-Resume-Sep2026.pdf",
     summary:
       "Large-scale Spark ETL, cloud data platforms, and AI-ready / analytics datasets for product, advertising, and ML use cases.",
   },
